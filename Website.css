@@ -1,0 +1,114 @@
+body {
+    font-family: arial;
+    background-color: whitesmoke;
+    
+}
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 70px;
+    float:inherit
+}
+ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #525050;
+  background-color: #333232;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  
+}
+
+ul :hover {
+    color:rgb(213, 216, 7)
+    ;
+}
+
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .active{
+      background-color: rgba(153, 153, 153, 0.597);
+  }
+
+#cart{
+    width: 46px;
+    height: 46px;
+    background: url('https://banner2.cleanpng.com/20171217/991/shopping-cart-png-5a364b44f3f540.1430760515135076529993.jpg') 0 0;
+    float: right;
+}
+#navlist {
+    position: relative;
+  }
+  
+  #navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+  }
+  
+  #navlist li, #navlist a {
+    height: 44px;
+    display: block;
+  }
+  
+ img.large{
+    
+    width: 440;
+    height: 330;
+    display: block;
+    margin: 0px auto;
+    padding: 30px;
+    
+  }
+
+ div.box {
+     height: 300px;
+     width: 300px;
+     
+ }
+    
+
+
+div.login {
+  color: black;
+  
+}
+
+img.long {
+  float:right;
+  margin-left: 10px;
+  }
+
+#home {
+  width: 46px;
+  height: 44px;
+  background: url(Images/css_sprites.png) 0 0;
+  float: right;
+  
+}
+
+h2 {
+  text-align: center;
+}
+
+img.modern {
+  display: block;
+  margin: 0px auto;
+  padding: 30px;
+height: 500px;}
